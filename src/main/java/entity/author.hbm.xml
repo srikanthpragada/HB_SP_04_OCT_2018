@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+  <class name="entity.Author" table="AUTHORS">
+    <id name="auid">
+      <generator class="assigned"/>
+    </id>
+    <property name="name"  type="string" length="50" />
+    <property name="email" type="string" length="50" />
+  </class>
+</hibernate-mapping>
