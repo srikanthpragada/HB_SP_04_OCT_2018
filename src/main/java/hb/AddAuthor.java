@@ -11,9 +11,9 @@ public class AddAuthor {
 
 	public static void main(String[] args) {
 		Author author = new Author();
-		author.setAuid(2);
-		author.setName("Jessy Liberty");
-		author.setEmail("liberty@gmail.com");
+		// author.setAuid(2);
+		author.setName("Stephen Walther");
+		author.setEmail("steve@microsoft.com");
 
 		Configuration c = new Configuration().configure(); // hibernate.cfg.xml
 		SessionFactory sf = c.buildSessionFactory();

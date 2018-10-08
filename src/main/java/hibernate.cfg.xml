@@ -10,9 +10,10 @@
     <property name="hibernate.hbm2ddl.auto">update</property>
     <property name="hibernate.show_sql">true</property>
     <!-- List of XML mapping files -->
-    <!-- 
     <mapping resource = "entity/author.hbm.xml"/>
+    <mapping resource = "entity/Book.hbm.xml"/>
+    <mapping resource = "entity/Chapter.hbm.xml"/>
     <mapping class="entity.Author2" />
-    -->
+    
   </session-factory>
 </hibernate-configuration>

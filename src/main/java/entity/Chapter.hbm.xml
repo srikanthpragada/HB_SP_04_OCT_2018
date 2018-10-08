@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 08-Oct-2018, 8:48:41 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+	<class name="entity.Chapter" table="CHAPTERS">
+		<composite-id class="entity.ChapterId" name="id">
+			<key-property name="bookId" />
+			<key-property name="chapterNo" />
+		</composite-id>
+		<property name="title" type="java.lang.String" >
+			<column name="TITLE"  length="30" />
+		</property>
+	</class>
+</hibernate-mapping>

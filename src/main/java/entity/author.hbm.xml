@@ -2,7 +2,7 @@
 <hibernate-mapping>
   <class name="entity.Author" table="AUTHORS">
     <id name="auid">
-      <generator class="assigned"/>
+      <generator class="increment"/>
     </id>
     <property name="name"  type="string" length="50" />
     <property name="email" type="string" length="50" />
