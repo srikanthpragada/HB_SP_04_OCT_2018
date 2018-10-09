@@ -13,6 +13,8 @@
     <mapping resource = "entity/author.hbm.xml"/>
     <mapping resource = "entity/Book.hbm.xml"/>
     <mapping resource = "entity/Chapter.hbm.xml"/>
+    <mapping resource = "onetomany/Dept.hbm.xml"/>
+    <mapping resource = "onetomany/Emp.hbm.xml"/>
     <mapping class="entity.Author2" />
     
   </session-factory>
