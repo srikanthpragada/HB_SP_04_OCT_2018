@@ -1,8 +1,20 @@
 package onetomany;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Dept {
 	private int id;
 	private String name;
+	private Set<Emp> employees = new HashSet<Emp>();
+
+	public Set<Emp> getEmployees() {
+		return employees;
+	}
+
+	public void setEmployees(Set<Emp> employees) {
+		this.employees = employees;
+	}
 
 	public int getId() {
 		return id;
